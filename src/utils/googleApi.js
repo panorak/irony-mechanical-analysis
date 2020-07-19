@@ -3,9 +3,9 @@ import { NLP_EMOTION, NLP_ENTITY } from "../constants/string";
 const { REACT_APP_GOOGLE_API_SERVER_URL } = process.env;
 
 const emotionApiUrl = text =>
-  `${REACT_APP_GOOGLE_API_SERVER_URL}https://doong-jo.github.io/api/gcp-lang/emotion?text=${text}`;
+  `${REACT_APP_GOOGLE_API_SERVER_URL}/api/gcp-lang/emotion?text=${text}`;
 const entityApiUrl = text =>
-  `${REACT_APP_GOOGLE_API_SERVER_URL}https://doong-jo.github.io/api/gcp-lang/entity?text=${text}`;
+  `${REACT_APP_GOOGLE_API_SERVER_URL}/api/gcp-lang/entity?text=${text}`;
 
 console.log(REACT_APP_GOOGLE_API_SERVER_URL);
 
